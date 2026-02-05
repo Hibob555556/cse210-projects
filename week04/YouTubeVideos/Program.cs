@@ -1,9 +1,12 @@
 using System;
 
-class Program
+namespace YouTubeVideos
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello World! This is the YouTubeVideos Project.");
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World! This is the YouTubeVideos Project.");
+        }
     }
 }
