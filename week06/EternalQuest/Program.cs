@@ -1,9 +1,12 @@
-using System;
+// Exceeding requirements: Added a leveling system (1 level per 1000 points) displayed in the UI.
+
+using EternalQuest;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        GoalManager manager = new();
+        manager.Start();
     }
 }
